@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleLike();
     });
 
-    // Evento de clique na IMAGEM PRINCIPAL (Curte se não estiver curtido)
+    // Evento de clique na IMAGEM PRINCIPAL (Curte quantas vezes quiser)
     if (postMedia) {
         postMedia.addEventListener("click", (e) => {
             e.stopPropagation();
